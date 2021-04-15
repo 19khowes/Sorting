@@ -19,7 +19,7 @@ class Quick {
 				p = partition(nums, lo, hi);
 				
 				// Call quicksort with lowest index of lo and hi of p-1
-				quicksort(nums, lo, p -1);
+				quicksort(nums, lo, p - 1);
 				// Call quicksort with lowest index of p+1 and hi of hi
 				quicksort(nums, p + 1, hi);
 			}	
